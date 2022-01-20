@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:fossil",
+  "config": {
+    "max_empty_corners_allowed": 0,
+    "fossil_structures": [
+      "minecraft:air"
+    ],
+    "overlay_structures": [
+      "minecraft:cock"
+    ],
+    "fossil_processors": {
+      "processors": [
+        {
+          "processor_type": "minecraft:nop"
+        }
+      ]
+    },
+    "overlay_processors": {
+      "processors": [
+        {
+          "processor_type": "minecraft:nop"
+        }
+      ]
+    }
+  }
+}

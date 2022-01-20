@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:village",
+    "config": {
+        "size": 1,
+        "start_pool": "dim38:p1pool"
+    }
+}

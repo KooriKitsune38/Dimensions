@@ -1,0 +1,28 @@
+{
+    "feature": "dim38:traa",
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 2,
+            "max_inclusive": 3
+          }
+        }
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "heightmap",
+        "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+      },
+      {
+          "type": "random_offset",
+          "xz_spread": 0,
+          "y_spread": 16
+      }
+    ]
+  }
+  

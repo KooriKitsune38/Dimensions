@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 640273597,
+    "settings": {
+      "sea_level": 0,
+      "disable_mob_generation": true,
+      "noise_caves_enabled": false,
+      "noodle_caves_enabled": false,
+      "aquifers_enabled": false,
+      "ore_veins_enabled": false,
+      "legacy_random_source": true,
+      "default_block": {
+        "Name": "minecraft:stone"
+      },
+      "default_fluid": {
+        "Name": "minecraft:air"
+      },
+      "noise": {
+        "min_y": 0,
+        "height": 128,
+        "size_horizontal": 2,
+        "size_vertical": 1,
+        "island_noise_override": true,
+        "sampling": {
+          "xz_scale": 2,
+          "y_scale": 1,
+          "xz_factor": 80,
+          "y_factor": 160
+        },
+        "bottom_slide": {
+          "target": -0.234375,
+          "size": 7,
+          "offset": 1
+        },
+        "top_slide": {
+          "target": -23.4375,
+          "size": 64,
+          "offset": -46
+        },
+        "terrain_shaper": {
+          "offset": 0,
+          "factor": 0,
+          "jaggedness": 0
+        }
+      },
+      "surface_rule": {
+        "type": "minecraft:sequence",
+        "sequence": []
+      },
+      "structures": {
+        "structures": {
+          "minecraft:village": {
+            "spacing": 34,
+            "separation": 8,
+            "salt": 10387312
+          }
+        }
+      }
+    },
+    "biome_source": {
+      "type": "fixed",
+      "biome": "dim38:biotest"
+    }
+  }
+}
