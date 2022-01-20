@@ -1,5 +1,5 @@
 {
-  "name": "dim38:p1pool",
+  "name": "kdims:p1pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
@@ -7,7 +7,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "location": "dim38:broken_vampire_temple",
+        "location": "kdims:broken_vampire_temple",
         "processors": "minecraft:empty"
       }
     }

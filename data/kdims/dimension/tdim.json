@@ -61,7 +61,7 @@
     },
     "biome_source": {
       "type": "fixed",
-      "biome": "dim38:biotest"
+      "biome": "kdims:biotest"
     }
   }
 }

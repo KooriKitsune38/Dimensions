@@ -3,12 +3,12 @@
   "generator": {
     "type": "minecraft:noise",
     "seed": 2133217684,
-    "settings": "dim38:weirdnoise2",
+    "settings": "kdims:weirdnoise2",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "dim38:biotest",
+          "biome": "kdims:biotest",
           "parameters": {
             "continentalness": 0,
             "depth": 1.5,
@@ -20,7 +20,7 @@
           }
         },
         {
-          "biome": "dim38:whisky",
+          "biome": "kdims:whisky",
           "parameters": {
             "continentalness": 0,
             "depth": 0,

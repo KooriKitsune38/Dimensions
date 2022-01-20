@@ -3,10 +3,10 @@
   "config": {
     "max_empty_corners_allowed": 0,
     "fossil_structures": [
-      "minecraft:air"
+      "kdims:air"
     ],
     "overlay_structures": [
-      "minecraft:cock"
+      "kdims:cock"
     ],
     "fossil_processors": {
       "processors": [

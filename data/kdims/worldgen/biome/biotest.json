@@ -4,10 +4,12 @@
   "precipitation": "rain",
   "category": "plains",
   "effects": {
-    "sky_color": 7907327,
-    "fog_color": 12638463,
-    "water_color": 8388863,
-    "water_fog_color": 329011,
+    "sky_color": 0,
+    "fog_color": 12889829,
+    "water_color": 12443621,
+    "water_fog_color": 0,
+    "grass_color": 3946502,
+    "foliage_color": 5644063,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
@@ -92,7 +94,8 @@
       }
     ],
     "water_creature": [],
-    "water_ambient": []
+    "water_ambient": [],
+    "misc": []
   },
   "spawn_costs": {},
   "carvers": {
@@ -114,10 +117,7 @@
       "minecraft:monster_room_deep"
     ],
     [],
-    [
-      "minecraft:mega_pine_checked",
-      "minecraft:mega_spruce_checked"
-    ],
+    [],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
@@ -154,20 +154,27 @@
       "minecraft:spring_lava"
     ],
     [
-      "dim38:mansionpf",
-      "minecraft:patch_grass_plain",
+      "minecraft:trees_flower_forest",
       "minecraft:trees_meadow",
       "minecraft:vines",
-      "minecraft:patch_grass_forest",
-      "minecraft:trees_windswept_forest",
       "minecraft:forest_rock",
+      "minecraft:mega_spruce_checked",
+      "minecraft:mega_pine_checked",
+      "minecraft:trees_grove",
       "minecraft:glow_lichen",
       "minecraft:flower_default",
       "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_pumpkin",
+      "minecraft:jungle_bush"
+    ],
+    [
+      "kdims:underfloor",
+      "minecraft:lush_caves_ceiling_vegetation",
+      "minecraft:classic_vines_cave_feature",
+      "minecraft:cave_vines"
     ]
   ]
 }
